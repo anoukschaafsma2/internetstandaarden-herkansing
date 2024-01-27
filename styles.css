@@ -1,0 +1,197 @@
+header {
+    font-size: large;
+    background-color: rgb(129, 138, 138);
+    padding: 1em 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav ul li a:hover {
+    color: rgb(157, 224, 176);
+    border: 0.2em;
+    border-radius: 0.2em;
+    background-color: rgba(45, 156, 219, 0.2);
+    border: 0.1em solid rgba(45, 156, 219, 0.5);
+    transition: all 300ms ease;
+}
+
+nav {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 300ms ease;
+    font-size: larger;
+    text-shadow: 0 0.25em 0.3em rgba(0, 0, 0, 0.1);
+}
+
+p ul li a {
+    color: rgb(0, 0, 0, .87);
+}
+
+a {
+    color: rgb(0, 0, 0, .87);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+ul li {
+    text-align: center;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
+
+nav ul li a {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    background: rgb(157, 224, 176);
+    padding: 1em;
+    margin: 1em;
+}
+
+a:hover {
+    color: rgb(129, 138, 138);
+    border: 0.2em;
+    border-radius: 0.2em;
+}
+
+ol {
+    list-style: none;
+}
+
+main,
+#babyolifant {
+    text-align: center;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.draaiendefoto {
+    transform: rotate(20deg);
+    transition: transform 0.5s ease;
+}
+
+.draaiendevideo {
+    transform: rotate(-20deg);
+    transition: transform 0.5s ease;
+}
+
+.draaiendefoto,
+.draaiendevideo {
+    margin-top: 4.0625em;
+    margin-bottom: 4.0625em;
+}
+
+.draaiendefoto:hover {
+    transform: scale(1.1);
+}
+
+.draaiendevideo:hover {
+    transform: scale(1.1);
+}
+
+div {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50em;
+    margin: auto;
+}
+
+div img {
+    width: 25em;
+    height: 25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+div a {
+    text-align: end;
+}
+
+div p {
+    display: block;
+    text-align: start;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bronnen article img {
+    width: 15em;
+    height: 15em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    float: right;
+}
+
+.bronnen article ul li a {
+    display: block;
+    text-align: start;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bronnen article h3 {
+    display: block;
+    text-align: start;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#terugknop:hover {
+    background-color: rgba(45, 156, 219, 0.2);
+    color: #333;
+    border: 0.1em solid rgba(45, 156, 219, 0.5);
+    transition: all 300ms ease;
+}
+
+#terugknop {
+    text-shadow: 0 0.25em 0.3em rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#babyolifant {
+    animation: rotation 3s linear infinite;
+}
+
+footer p {
+    padding: 1.2500em;
+    text-align: end;
+}
